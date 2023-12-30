@@ -9,13 +9,13 @@ function Home() {
         {/* Hero Text and image*/}
         <div className='flex flex-row justify-evenly items-center w-[75%] mx-auto h-[50%] p-8 mt-12'>
           <div className='hero-text'>
-            <p className='font-light text-[.75em] text-black italic'>Hello! My name is</p>
-            <h1 className='name text-[2em] text-[#ff5500]'>Navdeep Jaswal</h1>
-            <h2 className='font-normal text-black pb-8'>I'm a Full-Stack Developer</h2>
-            <p className='font-light text-[.75em] text-black max-w-[25rem] pb-3'>Experienced developer with four years of expertise in designing,
+            <p className='font-t font-light text-[.75em] text-black italic'>Hello! My name is</p>
+            <h1 className='name text-[2em] text-[#ff5500] font-p font-bold'>Navdeep Jaswal</h1>
+            <h2 className='font-t font-semibold text-black pb-8'>I'm a Full-Stack Developer</h2>
+            <p className='font-t font-light text-[.75em] text-black max-w-[27rem] pb-3'>Experienced developer with four years of expertise in designing,
               developing, and implementing web applications.
             </p>
-            <p className='font-light text-[.75em] text-black max-w-[25rem]'>
+            <p className='font-t font-light text-[.75em] text-black max-w-[25rem]'>
               Focused on building breathtaking responsive Full-Stack Web
               Applications.
             </p>

@@ -16,10 +16,10 @@ const Navbar = () => {
                 {/* nav menu */}
                 <div className='nav-item'>
                     <ul className='flex justify-evenly w-[45vw]'>
-                        <li>About</li>
-                        <li>Skills</li>
-                        <li>Experience</li>
-                        <li>Portfolio</li>
+                        <li className='font-s'>About</li>
+                        <li className='font-s'>Skills</li>
+                        <li className='font-s'>Experience</li>
+                        <li className='font-s'>Portfolio</li>
                     </ul>
                 </div>
             </div>
@@ -27,13 +27,13 @@ const Navbar = () => {
             {/* social-links */}
             <div className='social fixed left-0 top-[35%]'>
                 <ul>
-                    <li className='relative left-[-104px] hover:left-[0] rounded-md duration-300 hover:bg-gray bg-[#0000009c]'>
+                    <li className='font-t font-extralight relative left-[-89px] hover:left-[0] rounded-md duration-300 hover:bg-gray bg-[#0000009c]'>
                         <a href='https://www.linkedin.com/in/navdeep-jaswal-9391b0115/' target="_blank">LinkedIn  <LinkedInIcon fontSize="large" /></a>
                     </li>
-                    <li className='relative left-[-85px] hover:left-[0] rounded-md duration-300 hover:bg-gray bg-[#0000009c]'>
+                    <li className='font-t font-extralight relative left-[-74px] hover:left-[0] rounded-md duration-300 hover:bg-gray bg-[#0000009c]'>
                         <a href='https://github.com/navdeepjaswal' target="_blank">Github  <GitHubIcon fontSize="large" /></a>
                     </li>
-                    <li className='relative left-[-273px] hover:left-[0] rounded-md duration-300 hover:bg-gray bg-[#0000009c]'>
+                    <li className='font-t font-extralight relative left-[-245px] hover:left-[0] rounded-md duration-300 hover:bg-gray bg-[#0000009c]'>
                         <a href='https://meritpages.com/NavdeepJaswal' target="_blank">Academic Acheivements  <SchoolIcon fontSize="large" /></a>
                     </li>
                 </ul>

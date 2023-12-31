@@ -85,3 +85,8 @@
   font-family: 'Inter', sans-serif;
 }
 
+.work-experience-container li {
+  display: flex;
+  padding-bottom: 10px;
+}
+

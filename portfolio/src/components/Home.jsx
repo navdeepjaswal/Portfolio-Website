@@ -28,7 +28,7 @@ function Home() {
       </div>
       
       {/* svg curve image */}
-      <svg className='relative top-1 z-[-1]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg className='relative top-1 z-[-1]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270">
         <path fill="#ff5500" fill-opacity="1" d="M0,160L60,186.7C120,213,240,267,360,240C480,213,600,107,720,80C840,53,960,107,1080,106.7C1200,107,1320,53,1380,26.7L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
       </svg>
 

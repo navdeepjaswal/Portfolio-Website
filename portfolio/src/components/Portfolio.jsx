@@ -12,7 +12,8 @@ function Portfolio() {
         },
         {
             'name': 'Homework Tracker',
-            'description' : 'Homework Tracker simplifies academic planning with an easy-to-use interface. Manage tasks effortlessly, organize with sorting options, and enjoy flexibility in editing and deleting entries. Its a casual project designed for efficient homework management.',            'url': 'https://github.com/navdeepjaswal/Homework-Tracker'
+            'description' : 'Homework Tracker simplifies homework planning with an easy-to-use interface. Manage your tasks, organize with sorting capability, and effortlessly edit and delete entries.',            
+            'url': 'https://github.com/navdeepjaswal/Homework-Tracker'
         },
         {
             'name': 'Weather Application',
@@ -23,7 +24,7 @@ function Portfolio() {
     return (
         <>
             <div className='home-container w-full h-1/2 '>
-                <h1 className='text-[2em] text-[#ff5500] font-p font-bold mx-auto w-fit pb-2'>Portfolio</h1>
+                <h1 className='text-[2.5em] text-[#ff5500] font-p font-bold mx-auto w-fit pb-2'>Portfolio</h1>
                 <div className='flex w-[75%] mx-auto items-center justify-around'>
 
                     <img src={standing} className='w-[26%]' alt="standing-img" />

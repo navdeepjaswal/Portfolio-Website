@@ -14,7 +14,7 @@ export default function ActionAreaCard({ project }) {
           <a href={project.url} target="_blank">
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                <h1 className='font-p'>{project.name}</h1>
+                <h1 className='font-p text-[#ff5500] font-thin duration-1000 hover:underline'>{project.name}</h1>
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 <p className='font-t'>{project.description}</p>

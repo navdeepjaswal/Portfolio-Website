@@ -139,3 +139,17 @@ svg {
 .project-description {
   height: fit-content;
 }
+
+.project-description {
+  line-height: 1em;
+}
+
+@media (max-width: 800px) {
+  .experience-timeline .MuiTimeline-root {
+    flex-direction: column;
+  }
+
+  .experience-timeline .MuiTimelineItem-alternate {
+    flex-direction: column-reverse;
+  }
+}

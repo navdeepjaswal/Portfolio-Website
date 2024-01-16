@@ -4,26 +4,28 @@ import heroImg from '../assets/hero-img.png'
 function Home() {
   return (
     <>
-      <div className='home w-full h-1/2 '>
+      <div className='home w-full'>
 
         {/* Hero Text and image*/}
-        <div className='flex flex-row justify-evenly items-center w-[75%] mx-auto h-[50%] p-8 mt-12'>
-          <div className='hero-text'>
-            <p className='font-t font-light text-[.75em] text-black italic'>Hello! My name is</p>
-            <h1 className='name text-[2.5em] text-[#ff5500] font-p font-bold'>Navdeep Jaswal</h1>
-            <h2 className='font-t font-semibold text-black pb-8'>I'm a Full-Stack Developer</h2>
-            <p className='font-t font-light text-[.75em] text-black max-w-[27rem] pb-3'>Experienced developer with four years of expertise in designing,
-              developing, and implementing web applications.
+        <div className='flex sm:flex-row flex-col justify-evenly items-center mx-auto h-[50%] p-8 mt-14 w-[90%] sm:w-[87%] lg:w-[78%] 2xl:w-[75%]'>
+          <div className='hero-text sm:pr-7'>
+            <p className='font-t font-light text-[.6em] 2xsm:text-[.75em] text-black italic text-center sm:text-start'>Hello! My name is</p>
+            <h1 className='name text-[1.3em] 2xsm:text-[2.5em] text-[#ff5500] font-p font-bold text-wrap xl:text-nowrap text-center sm:text-start'>Navdeep Jaswal</h1>
+            <h2 className='font-t font-semibold text-[.85em] 2xsm:text-[1em] text-black pb-8 text-center sm:text-start'>I'm a Full-Stack Developer</h2>
+            <p className='font-t font-light text-[.6em] 2xsm:text-[.75em] text-black md:max-w-[27rem] pb-3 text-center sm:text-start'>Experienced developer with four years of 
+              expertise in designing, developing, and implementing web applications.
             </p>
-            <p className='font-t font-light text-[.75em] text-black max-w-[25rem]'>
+            <p className='font-t font-light text-[.6em] 2xsm:text-[.75em] text-black md:max-w-[25rem] text-center sm:text-start'>
               Focused on building breathtaking responsive Full-Stack Web
               Applications.
             </p>
           </div>
 
-          <div>
-            <img src={heroImg} className='w-96' alt="hero-img" />
-          </div>
+          <section className='flex-shrink-0 w-[250px] 2xsm:w-[400px] sm:w-[400px] xl:w-[500px]'>
+            <img src={heroImg} className='w-full' alt="hero-img" />
+          </section>
+          
+
         </div>
       </div>
       

@@ -7,18 +7,18 @@ function About() {
         <>
             <div className='about bg-[#ff5500] text-white'>
 
-                <div className='flex flex-row justify-evenly items-center w-[75%] mx-auto text-montserrat'>
-                    <h1 className='font-p text-[2.5em] font-extrabold underline' style={{ textDecorationColor: 'gold', textUnderlineOffset: '15px'}}>About</h1>
+                <div className='flex sm:flex-row flex-col justify-evenly items-center w-[75%] mx-auto text-montserrat'>
+                    <h1 className='font-p pb-5 text-[1.3em] 2xsm:text-[2.5em] font-extrabold underline sm:pb-3' style={{ textDecorationColor: 'gold', textUnderlineOffset: '15px'}}>About</h1>
 
                     <div className='about-text flex flex-col max-w-md text-center'>
-                        <div className='title mb-8'>
-                            <h2 className='font-p font-bold'>Hello, nice to meet you! <PiSmileyWinkFill className='inline' color='gold'/></h2>
+                        <div className='title mb-6'>
+                            <h2 className='font-p font-bold text-[.8em] pb-5 2xsm:text-[1.3em]'>Hello, nice to meet you! <PiSmileyWinkFill className='inline' color='gold'/></h2>
                         </div>
 
                         <div className='description text-center flex flex-col items-center'>
-                            <h2 className='font-t font-extralight text-base max-w-xs'>
+                            <h2 className='font-t font-extralight max-w-xs text-[.6em] pb-5 2xsm:text-[.70em]'>
                             I am a Full-Stack Developer experienced in building beautiful and responsive websites. </h2>
-                            <h2 className='font-t font-extralight text-base max-w-xs pt-4'> 
+                            <h2 className='font-t font-extralight max-w-xs py-2 sm:py-4 text-[.6em] pb-5 2xsm:text-[.70em]'> 
                             My expertise extends to both front-end and back-end development, allowing me to create 
                             stunning and seamless online experiences. <BsStars className='inline text-lg' color='gold'/></h2>
                         </div>

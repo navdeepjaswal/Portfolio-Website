@@ -15,9 +15,9 @@ export default function Experience() {
     <>
       <div className='experience bg-[#ff5500] text-white'>
         <div className='flex flex-col justify-center items-center'>
-          <h1 className='font-p text-[2.5em] font-extrabold underline' style={{ textDecorationColor: 'gold', textUnderlineOffset: '20px' }}>Experience</h1>
+          <h1 className='font-p text-[1.3em] 2xsm:text-[2.5em] pb-5 font-extrabold underline' style={{ textDecorationColor: 'gold', textUnderlineOffset: '20px' }}>Experience</h1>
 
-          <div className='w-[75%] mx-auto p-8 text-montserrat'>
+          <div className='experience-timeline 2xsm:w-[75%] 2xsm:mx-auto 2xsm:p-8 text-montserrat'>
             <Timeline position="alternate">
               {/* 1st item */}
               <TimelineItem>

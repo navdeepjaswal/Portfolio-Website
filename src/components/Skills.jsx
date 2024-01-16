@@ -13,22 +13,22 @@ function Skills() {
       <div className='skills w-full h-1/2 '>
         <div className='flex flex-col justify-evenly items-center w-[75%] mx-auto h-[50%] pb-8'>
 
-          <h1 className='font-p text-[2em] text-[#ff5500] font-extrabold'>Skills <ComputerIcon fontSize='1.5em' /></h1>
+          <h1 className='font-p text-[1.3em] 2xsm:text-[2.5em] text-[#ff5500] font-extrabold'>Skills <ComputerIcon fontSize='1.5em' /></h1>
 
           <div className='skills-section w-full py-4 flex justify-evenly'>
-            <ul className='skills-list justify-evenly flex flex-col'>
+            <ul className='skills-list justify-evenly flex flex-col pr-3'>
               
-              <li className='skill font-t font-extralight flex space-x-2'>
+              <li className='skill font-t font-extralight flex space-x-2 text-[.7em] 2xsm:text-[1em]'>
                 <FaReact color='blue' fontSize={'1.2em'} />
                 <span>React</span>
               </li>
 
-              <li className='skill font-t font-extralight flex space-x-2'>
+              <li className='skill font-t font-extralight flex space-x-2 text-[.7em] 2xsm:text-[1em]'>
                 <RiJavascriptFill color='orange' fontSize={'1.2em'}/>
                 <span>Javascript</span> 
               </li>
 
-              <li className='skill font-t font-extralight flex space-x-2'>
+              <li className='skill font-t font-extralight flex space-x-2 text-[.7em] 2xsm:text-[1em]'>
                 <FaNodeJs color='red' fontSize={'1.2em'}/>
                 <span>NodeJS</span> 
               </li>
@@ -36,17 +36,17 @@ function Skills() {
             </ul>
 
             <ul className='skills-list justify-evenly flex flex-col'>
-              <li className='skill font-t font-extralight flex space-x-2'>
+              <li className='skill font-t font-extralight flex space-x-2 text-[.7em] 2xsm:text-[1em]'>
                 <FaJava color='orangered' fontSize={'1.2em'}/>
                 <span>Java</span> 
               </li>
 
-              <li className='skill font-t font-extralight flex space-x-2'>    
+              <li className='skill font-t font-extralight flex space-x-2 text-[.7em] 2xsm:text-[1em]'>    
                 <TbBrandMongodb color='yellow' fontSize={'1.2em'}/>
                 <span>MongoDB</span> 
               </li>
 
-              <li className='skill font-t font-extralight flex space-x-2'> 
+              <li className='skill font-t font-extralight flex space-x-2 text-[.7em] 2xsm:text-[1em]'> 
                 <SiSass color='pink' fontSize={'1.2em'}/>
                 <span>Sass</span> 
               </li>

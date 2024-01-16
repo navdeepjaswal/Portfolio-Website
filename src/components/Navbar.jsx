@@ -15,7 +15,7 @@ const Navbar = () => {
                 <img src={navIcon} alt="nav-icon" className='w-[55px] lg:w-[70px] pl-5 hover:cursor-pointer hover:animate-pulse'></img>
 
                 {/* nav menu */}
-                <div className='nav-item'>
+                <div className='nav-item mr-3'>
                     <ul className='flex justify-evenly w-full'>
                         <li className='font-s'>
                             <Link to="about" smooth={true} duration={500}>
@@ -65,8 +65,8 @@ const Navbar = () => {
                 </ul>
             </div>
 
-
-            <img src={peekImage} alt="peek-img" className='fixed bottom-0 right-0 w-[10%] duration-1000 hover:right-[-20%]' />
+            {/*peek image*/}
+            <img src={peekImage} alt="peek-img" className='fixed bottom-0 right-0 w-[10%] duration-1000 hover:right-[-20%] min-w-[120px]' />
         </div>
 
     )

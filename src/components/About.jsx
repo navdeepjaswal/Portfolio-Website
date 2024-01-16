@@ -16,9 +16,9 @@ function About() {
                         </div>
 
                         <div className='description text-center flex flex-col items-center'>
-                            <h2 className='font-t font-extralight max-w-xs text-[.6em] pb-5 2xsm:text-[.70em]'>
+                            <h2 className='font-t font-extralight max-w-xs text-[.6em] pb-5 2xsm:text-[.65em]'>
                             I am a Full-Stack Developer experienced in building beautiful and responsive websites. </h2>
-                            <h2 className='font-t font-extralight max-w-xs py-2 sm:py-4 text-[.6em] pb-5 2xsm:text-[.70em]'> 
+                            <h2 className='font-t font-extralight max-w-xs py-2 sm:py-4 text-[.6em] pb-5 2xsm:text-[.65em]'> 
                             My expertise extends to both front-end and back-end development, allowing me to create 
                             stunning and seamless online experiences. <BsStars className='inline text-lg' color='gold'/></h2>
                         </div>

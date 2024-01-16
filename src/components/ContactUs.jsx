@@ -12,7 +12,7 @@ export default function ContactUs() {
         const email = form.current.user_email.value;
         const message = form.current.message.value;
 
-        if(username || email || message) {
+        if(username && email && message) {
             emailjs.sendForm('service_aahmumv', 'template_s3cuud1', form.current, 'sZxiQ9AFEZLryUd6x')
             .then((result) => {
                 console.log(result.text);

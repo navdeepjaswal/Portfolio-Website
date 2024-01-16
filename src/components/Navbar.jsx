@@ -23,10 +23,10 @@ const Navbar = () => {
                 <img src={navIcon} alt="nav-icon" className={`${isMenuOpen && 'hidden xsm:block'} w-[55px] lg:w-[70px] pl-5 hover:cursor-pointer hover:animate-pulse`}></img>
 
                 {/* nav menu */}
-                <div className={`${isMenuOpen && 'flex flex-col align-center w-full'} nav-item mr-3`}>
+                <div className={`${isMenuOpen && 'flex flex-col align-center w-full xsm:w-auto'} nav-item mr-3`}>
                     {/*hamburger icon for mobile displays*/}
                     <button className={`xsm:hidden pr-2 ${isMenuOpen &&  'self-end'}`} onClick={handleClick}><GiHamburgerMenu /></button>
-                    {isMenuOpen && <NavbarSections display='flex flex-col text-center mx-auto xsm:hidden' />}
+                    {isMenuOpen && <NavbarSections display='flex flex-col text-center mx-auto xsm:hidden' smallRes={isMenuOpen}/>}
 
                     <NavbarSections display={'hidden xsm:flex flex-row'} />
                 </div>

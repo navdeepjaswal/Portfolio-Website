@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  box-sizing: border-box;  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@layer base {
+  body {
+    font-size: 30px;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .8;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 0.5s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+@keyframes colorChange {
+  from {
+    color: white;
+  }
+  to {
+    color: #dbdbdb;
+  }
+}
+
+.nav-bar li {
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+.nav-item li {
+  color: white;
+}
+
+.nav-item li:hover {
+  animation: colorChange 0.3s forwards; 
+}
+
+.social li {
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-size: 20px;
+  letter-spacing: .5px;
+  width: fit-content;
+  padding: 7px;
+}
+
+.social li:hover{
+  background-color: beige;
+  color: black;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  color: black;
+  letter-spacing: 1px;
+  padding-bottom: 1.5em;
+  transition: transform 0.2s;
+}
+
+.skill:hover {
+  transform: scale(1.2);
+  cursor: default;
+}
+
+.font-p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-s {
+  font-family: 'Abril Fatface', serif;
+}
+
+.font-t {
+  font-family: 'Inter', sans-serif;
+}
+
+.work-experience-container li {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.hover-1 {
+  --c: #ff5500;
+  --s: .15em;
+  
+  line-height:1.1em;
+  padding-bottom: calc(2.1*var(--s));
+  background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+      left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+      left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.hover-1:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+
+svg {
+  margin: -3px 0px;
+}
+
+.home, .about, .skill, .experience, .portfolio, .contact {
+  height: fit-content;
+}
+
+.project-description {
+  height: fit-content;
+}

@@ -1,52 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import navIcon from '../assets/nav-icon.png'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import SchoolIcon from '@mui/icons-material/School';
 import peekImage from '../assets/peek.png';
-import { Link } from 'react-scroll';
+import { GiHamburgerMenu } from "react-icons/gi";
+import NavbarSections from './NavbarSections';
 
 const Navbar = () => {
+
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    function handleClick() {
+        setMenuOpen((prevState) => (!prevState));
+    }
+
     return (
         <div className='nav-container w-full'>
-            <div className='nav-bar bg-[#ff5500] w-full flex py-[10px] items-center text-gray-200 justify-between'>
+            <div className={`nav-bar bg-[#ff5500] w-full flex py-[10px] items-center text-gray-200 ${isMenuOpen ? 'justify-center': 'justify-between'} xsm:justify-between`}>
 
                 {/* nav-image */}
-                <img src={navIcon} alt="nav-icon" className='w-[55px] lg:w-[70px] pl-5 hover:cursor-pointer hover:animate-pulse'></img>
+                <img src={navIcon} alt="nav-icon" className={`${isMenuOpen && 'hidden xsm:block'} w-[55px] lg:w-[70px] pl-5 hover:cursor-pointer hover:animate-pulse`}></img>
 
                 {/* nav menu */}
-                <div className='nav-item mr-3'>
-                    <ul className='flex justify-evenly w-full'>
-                        <li className='font-s'>
-                            <Link to="about" smooth={true} duration={500}>
-                                About
-                            </Link>
-                        </li>
+                <div className={`${isMenuOpen && 'flex flex-col align-center w-full'} nav-item mr-3`}>
+                    {/*hamburger icon for mobile displays*/}
+                    <button className={`xsm:hidden pr-2 ${isMenuOpen &&  'self-end'}`} onClick={handleClick}><GiHamburgerMenu /></button>
+                    {isMenuOpen && <NavbarSections display='flex flex-col text-center mx-auto xsm:hidden' />}
 
-                        <li className='font-s'>
-                            <Link to="skills" smooth={true} duration={500}>
-                                Skills
-                            </Link>
-                        </li>
-
-                        <li className='font-s'>
-                            <Link to="experience" smooth={true} duration={500}>
-                                Experience
-                            </Link>
-                        </li>
-
-                        <li className='font-s'>
-                            <Link to="portfolio" smooth={true} duration={500}>
-                                Portfolio
-                            </Link>
-                        </li>
-
-                        <li className='font-s'>
-                            <Link to="contact" smooth={true} duration={500}>
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
+                    <NavbarSections display={'hidden xsm:flex flex-row'} />
                 </div>
             </div>
 

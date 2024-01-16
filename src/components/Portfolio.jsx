@@ -25,7 +25,8 @@ function Portfolio() {
         <>
             <div className='portfolio'>
                 <h1 className='text-[1.3em] 2xsm:text-[2.5em] text-[#ff5500] font-p font-bold mx-auto w-fit pb-5'>Portfolio</h1>
-                <div className='flex flex-col-reverse items-start md:items-center md:flex-row w-[75%] lg:mx-auto justify-around'>
+                
+                <div className='flex flex-col-reverse items-start md:items-center md:flex-row w-[75%] mx-auto justify-around'>
 
                     <section className='flex-shrink-0 w-[250px]'>
                         <img src={standing} className='w-full' alt="standing-img" />
@@ -33,7 +34,7 @@ function Portfolio() {
 
 
 
-                    <div className='flex flex-col md:flex-row justify-evenly items-center mx-auto'>
+                    <div className='flex flex-col 2xl:flex-row justify-evenly items-center mx-auto'>
                         {projects.map((project, index) => (<ActionAreaCard project={project} key={index} />))}
                     </div>
                 </div>

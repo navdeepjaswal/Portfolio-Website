@@ -4,7 +4,7 @@
 
 
 html {
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 * {
@@ -13,7 +13,8 @@ html {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -27,9 +28,12 @@ html, body {
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: .8;
   }
@@ -43,6 +47,7 @@ html, body {
   from {
     color: white;
   }
+
   to {
     color: #dbdbdb;
   }
@@ -51,7 +56,7 @@ html, body {
 .nav-bar li {
   padding: 10px;
   cursor: pointer;
-  
+
 }
 
 .nav-item li {
@@ -59,7 +64,7 @@ html, body {
 }
 
 .nav-item li:hover {
-  animation: colorChange 0.3s forwards; 
+  animation: colorChange 0.3s forwards;
 }
 
 .social li {
@@ -71,7 +76,7 @@ html, body {
   padding: 7px;
 }
 
-.social li:hover{
+.social li:hover {
   background-color: beige;
   color: black;
 }
@@ -107,32 +112,40 @@ html, body {
   padding-bottom: 10px;
 }
 
-.hover-1 {
-  --c: #ff5500;
-  --s: .15em;
-  
-  line-height:1.1em;
-  padding-bottom: calc(2.1*var(--s));
-  background: 
-    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
-      left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
-    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
-      left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
-  transition: .5s;
+@media (min-width: 500px) {
+  .hover-1 {
+    --c: #ff5500;
+    --s: .15em;
+
+    line-height: 1.1em;
+    padding-bottom: calc(2.1*var(--s));
+    background:
+      conic-gradient(from 135deg at top, var(--c) 90deg, #0000 0) left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+      conic-gradient(from -45deg at bottom, var(--c) 90deg, #0000 0) left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0) 0/var(--_p, 0%) padding-box no-repeat;
+    transition: .5s;
+  }
 }
+
+
 .hover-1:hover {
   --_p: 100%;
   color: var(--c);
 }
 
+
 svg {
   margin: -3px 0px;
 }
 
-.home, .about, .skill, .experience, .portfolio, .contact {
+.home,
+.about,
+.skill,
+.experience,
+.portfolio,
+.contact {
   height: fit-content;
 }
 
@@ -141,7 +154,7 @@ svg {
 }
 
 .project-description {
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 @media (max-width: 800px) {

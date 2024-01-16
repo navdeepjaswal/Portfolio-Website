@@ -33,9 +33,9 @@ export default function ContactUs() {
 
                     <div className='flex flex-col justify-center'>
                         <div className='flex items-center'>
-                            <h1 className='font-p text-[2.5em] font-extrabold underline pb-5' 
-                            style={{ textDecorationColor: 'gold', textUnderlineOffset: '15px' }}>Get In Touch </h1> &nbsp; &nbsp;
-                            <MdEmail color='gold' size={'4rem'}/> 
+                            <h1 className='font-p text-[1.3em] 2xsm:text-[2.5em] font-extrabold underline pb-8 text-center' 
+                                style={{ textDecorationColor: 'gold', textUnderlineOffset: '15px' }}>Get In Touch 
+                            </h1> &nbsp; &nbsp;
                         </div>
 
                         <form ref={form} onSubmit={sendEmail} className='flex flex-col w-3/4 mx-auto'>

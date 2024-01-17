@@ -34,7 +34,7 @@ const Navbar = () => {
 
             {/* social-links */}
             <div className='social fixed left-0 top-[35%]'>
-                <ul className='text-nowrap w-[50px]'>
+                <ul className='social-list w-[50px]'>
                     <li className='font-t font-extralight relative left-[-89px] hover:left-[0] rounded-md duration-300 hover:bg-gray bg-[#0000009c]'>
                         <a href='https://www.linkedin.com/in/navdeep-jaswal-9391b0115/' target="_blank">LinkedIn  <LinkedInIcon fontSize="large" /></a>
                     </li>

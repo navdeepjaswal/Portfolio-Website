@@ -17,53 +17,32 @@ export default function Experience() {
         <div className='flex flex-col justify-center items-center'>
           <h1 className='font-p text-[1.3em] 2xsm:text-[2.5em] pb-5 font-extrabold underline' style={{ textDecorationColor: 'gold', textUnderlineOffset: '20px' }}>Experience</h1>
 
-          <div className='experience-timeline 2xsm:w-[75%] 2xsm:mx-auto 2xsm:p-8 text-montserrat'>
-            <Timeline position="alternate">
-              {/* 1st item */}
+          <div className='experience-timeline w-[85%] sm:w-[70%] mx-auto pt-4 sm:py-8 text-montserrat'>
+            <Timeline>
               <TimelineItem>
-                <TimelineOppositeContent
-                  sx={{ m: 'auto 0' }}
-                  align="right"
-                  variant="body2"
-                  color="text.secondary"
-                >
-                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineConnector />
                   <TimelineDot style={{ backgroundColor: '#ff5500' }}>
                     <WorkHistoryIcon />
                   </TimelineDot>
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                <TimelineContent>
                   {/* experience card */}
                   <ExperienceCard content="work" />
-
                 </TimelineContent>
               </TimelineItem>
-
-              {/* 2nd item */}
               <TimelineItem>
-                <TimelineOppositeContent
-                  sx={{ m: 'auto 0' }}
-                  variant="body2"
-                  color="text.secondary"
-                >
-                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineConnector />
                   <TimelineDot style={{ backgroundColor: '#ff5500' }}>
                     <SchoolIcon />
                   </TimelineDot>
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-
-                  {/* experience card */}
+                <TimelineContent>
+                  {/* school card */}
                   <ExperienceCard content="school" />
                 </TimelineContent>
               </TimelineItem>
-
             </Timeline>
           </div>
         </div>

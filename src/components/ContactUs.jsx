@@ -29,16 +29,16 @@ export default function ContactUs() {
 
         <>
             <div className='contact bg-[#ff5500] text-white pb-10'>
-                <div className='flex justify-center items-center w-[75%] mx-auto text-montserrat'>
+                <div className='flex justify-center items-center w-[90%] 2xsm:w-[500px] mx-auto text-montserrat'>
 
-                    <div className='flex flex-col justify-center'>
+                    <div className='flex flex-col w-full items-center'>
                         <div className='flex items-center'>
-                            <h1 className='font-p text-[1.3em] 2xsm:text-[2.5em] font-extrabold underline pb-8 text-center' 
+                            <h1 className='font-p text-[1.3em] 2xsm:text-[2.5em] font-extrabold underline pb-8 text-center justify-center xsm:whitespace-nowrap' 
                                 style={{ textDecorationColor: 'gold', textUnderlineOffset: '15px' }}>Get In Touch 
                             </h1> &nbsp; &nbsp;
                         </div>
 
-                        <form ref={form} onSubmit={sendEmail} className='flex flex-col w-3/4 mx-auto'>
+                        <form ref={form} onSubmit={sendEmail} className='flex flex-col mx-auto w-[90%] 2xsm:w-[450px]'>
 
                             <label className='font-p text-xl mb-1'>Name</label>
                             <input className='mb-7 font-p text-base p-3 outline-none outline-[white] text-black rounded-lg' type="text" name="user_name" />

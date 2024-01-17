@@ -166,3 +166,11 @@ svg {
     flex-direction: column-reverse;
   }
 }
+
+.social-list {
+  white-space: nowrap;
+}
+
+.experience-timeline li::before {
+  content: none;
+}

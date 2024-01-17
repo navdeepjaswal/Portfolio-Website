@@ -28,11 +28,11 @@ function ExperienceCard({content}) {
       <h1 className='font-p font-bold text-[1.3em] 2xsm:text-[2em] underline pb-1' style={{letterSpacing: '1px', textUnderlineOffset: '.15em'}}>Education</h1>
       <h2 className='font-t pb-1 font-bold text-[1.2em]'>New York Institute of Technology</h2>
       <h2 className='font-t font-light xsm:font-extralight text-[.9em]'>Master of Science - Computer Science</h2>
-      <p className='font-t font-light xsm:font-extralight text-[.9em] italic '> GPA - 3.3</p>
+      <p className='font-t font-extralight text-[.9em] italic '> GPA - 3.3</p>
       
       <h2 className='font-t pb-1 font-bold text-[1.2em]'>New York Institute of Technology</h2>
       <h2 className='font-t font-light xsm:font-extralight text-[.9em]'>Bachelor of Science - Computer Science </h2>
-      <p className='font-t font-light xsm:font-extralight text-[.9em] italic'> GPA - 3.8</p>
+      <p className='font-t font-extralight text-[.9em] italic'> GPA - 3.8</p>
     </div>
     }
     </>

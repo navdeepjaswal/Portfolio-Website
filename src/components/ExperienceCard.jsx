@@ -10,7 +10,7 @@ function ExperienceCard({content}) {
       <h1 className='font-p font-bold text-[1.3em] 2xsm:text-[2em] underline pb-1 ' style={{letterSpacing: '1px', textUnderlineOffset: '.15em'}}>Work Experience</h1>
       <h2 className='font-t pb-1 font-bold text-[1.2em]'>ExpanseFT, New York </h2>
       <h2 className='font-p pb-2 font-normal' style={{letterSpacing: '2px'}}>Full-Stack Developer</h2>
-      <p className='font-t pb-2 text-[.8em] font-light'>Jan 2000 - Oct 2023 </p>
+      <p className='font-t pb-2 text-[.8em] font-light'>Jan 2020 - Oct 2023 </p>
           <ul>
             <li className='font-t font-light xsm:font-extralight text-[.9em]'> <ChevronRightIcon/> Integrated a user-friendly Direct Deposit Switch feature using Atomic API on cardholder sites.</li>
             <li className='font-t font-light xsm:font-extralight text-[.9em]'> <ChevronRightIcon/> Facilitated impactful demos and discussions with key executives, including Atomic API developers, the CEO of Expanse, and the CTO of ExpanseFT, to elevate user engagement and promote the widespread adoption of prepaid cards.</li>
@@ -28,11 +28,11 @@ function ExperienceCard({content}) {
       <h1 className='font-p font-bold text-[1.3em] 2xsm:text-[2em] underline pb-1' style={{letterSpacing: '1px', textUnderlineOffset: '.15em'}}>Education</h1>
       <h2 className='font-t pb-1 font-bold text-[1.2em]'>New York Institute of Technology</h2>
       <h2 className='font-t font-light xsm:font-extralight text-[.9em]'>Master of Science - Computer Science</h2>
-      <p className='font-t font-extralight text-[.9em] italic '> GPA - 3.3</p>
+      <p className='font-t font-light xsm:font-extralight text-[.9em] italic '> GPA - 3.3</p>
       
       <h2 className='font-t pb-1 font-bold text-[1.2em]'>New York Institute of Technology</h2>
       <h2 className='font-t font-light xsm:font-extralight text-[.9em]'>Bachelor of Science - Computer Science </h2>
-      <p className='font-t font-extralight text-[.9em] italic'> GPA - 3.8</p>
+      <p className='font-t font-light xsm:font-extralight text-[.9em] italic'> GPA - 3.8</p>
     </div>
     }
     </>

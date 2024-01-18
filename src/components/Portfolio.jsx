@@ -11,14 +11,14 @@ function Portfolio() {
             'url': 'https://github.com/navdeepjaswal/Metro-Fitness'
         },
         {
+            'name': 'Weather App',
+            'description': 'The Weather App enables users to input any location format (country, state, city, zip) and receive concise, accurate weather information. Its a user-friendly tool for effortless access to current weather updates.',
+            'url': 'https://github.com/navdeepjaswal/Weather-App-React-'
+        },
+        {
             'name': 'HW Tracker',
             'description': 'Homework Tracker simplifies homework planning with an easy-to-use interface. Manage your tasks, organize with sorting capability, and effortlessly edit and delete entries.',
             'url': 'https://github.com/navdeepjaswal/Homework-Tracker'
-        },
-        {
-            'name': 'Weather App',
-            'description': 'The Weather App enables users to input any location format (country, state, city, zip) and receive concise, accurate weather information. Its a user-friendly tool for effortless access to current weather updates.',
-            'url': 'https://github.com/navdeepjaswal/Weather-App'
         }
     ]
     return (

@@ -18,7 +18,7 @@ export default function ActionAreaCard({ project }) {
                 <h1 className='project-title font-p pt-1 2xsm:pt-0'>{project.name}</h1>
               </Typography>
   
-              <p className='project-description font-t font-light xsm:font-extralight
+              <p className='project-description font-t font-light xsm:font-light
               text-center p-2 pt-3 text-[.5em] 2xsm:text-[.6em]'>{project.description}</p>
             </CardContent>
           </a>

@@ -7,8 +7,8 @@ export default {
       screens: {
         '3xsm':'320px',
         '2xsm':'500px',
-        'xsm': '768px',
-        'sm': '900px',
+        'xsm': '780px',
+        'sm': '907px',
         'md': '1025px',
         'lg': '1175px',
         'xl': '1360px',

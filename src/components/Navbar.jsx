@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className={`nav-bar bg-[#ff5500] w-full flex py-[10px] items-center text-gray-200 ${isMenuOpen ? 'justify-center': 'justify-between'} xsm:justify-between`}>
 
                 {/* nav-image */}
-                <img src={navIcon} alt="nav-icon" className={`${isMenuOpen && 'hidden xsm:block'} w-[55px] w-[70px] pl-5 hover:cursor-pointer hover:animate-pulse`}></img>
+                <img src={navIcon} alt="nav-icon" className={`${isMenuOpen && 'hidden xsm:block'} w-[70px] pl-5 hover:cursor-pointer hover:animate-pulse`}></img>
 
                 {/* nav menu */}
                 <div className={`${isMenuOpen && 'flex flex-col align-center w-full xsm:w-auto'} nav-item mr-3`}>
